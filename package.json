@@ -1,0 +1,13 @@
+{
+  "name": "advent",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "shadow-cljs": "2.7.6"
+  },
+  "dependencies": {},
+  "scripts": {
+    "repl": "shadow-cljs node-repl",
+    "watch": "shadow-cljs watch test"
+  }
+}

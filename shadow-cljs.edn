@@ -1,0 +1,10 @@
+;; shadow-cljs configuration
+{:source-paths ["src"]
+
+ :dependencies
+ [[cider/cider-nrepl "0.18.0"]]
+
+ :builds
+ {:test {:target :node-test
+         :autorun rtue
+         :output-to "dist/script.js"}}}
